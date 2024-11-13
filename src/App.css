@@ -1,0 +1,139 @@
+/* کلیات */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* کانتینر اصلی */
+.app-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+/* عنوان */
+.app-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* ورودی و دکمه */
+.task-input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.task-input {
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-task-btn {
+  width: 20%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-task-btn:hover {
+  background-color: #45a049;
+}
+
+/* لیست تسک‌ها */
+.tasks-container {
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* ویرایش و حذف */
+.task-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.edit-btn, .delete-btn {
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+  opacity: 0.8;
+}
+
+/* بخش ویرایش */
+.edit-task {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.edit-input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.save-btn, .cancel-btn {
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: #ccc;
+  color: white;
+}
+
+.save-btn:hover {
+  background-color: #45a049;
+}
+
+.cancel-btn:hover {
+  background-color: #bbb;
+}
